@@ -7,7 +7,13 @@
 }
 body {
   background:#141519;
-  font-family:'Overpass';
+    font-family: 'Overpass';
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
 }
 .ratingbox{
   position:absolute;
