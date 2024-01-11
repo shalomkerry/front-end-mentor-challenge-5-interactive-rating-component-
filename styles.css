@@ -6,14 +6,16 @@
   font-family: Overpass;
 }
 body {
-  background:#141519;
-  font-family:'Overpass';
+   background: #141519;
+    font-family: 'Overpass';
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
 }
 .ratingbox{
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform: translate(-50%,-50%);
   width:185px;
   height:auto;
   color:white;
